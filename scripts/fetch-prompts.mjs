@@ -55,7 +55,7 @@ async function fetchEN() {
           .filter((v) => v[0] && v[1]),
       );
   } catch (error) {
-    console.error("[Fetch] failed to fetch en prompts", error);
+    #console.error("[Fetch] failed to fetch en prompts", error);
     return [];
   }
 }
